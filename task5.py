@@ -14,3 +14,12 @@
 
 sequence = [10, 22, 9, 33, 21, 50, 41, 60, 80, 3, 5, 7, 2, 8, 1]
 
+
+def f(a):
+
+    s = []
+    for i in range(len(a)):
+        b = a[::]
+        return f(b)
+print(f(sequence))
+
